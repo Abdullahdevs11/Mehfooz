@@ -20,7 +20,7 @@ class MehfoozApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: AppColors.primary),
         scaffoldBackgroundColor: AppColors.background,
       ),
-      home:  const RegisterScreen(),
+      home:  const LoginScreen(),
     );
   }
 }
